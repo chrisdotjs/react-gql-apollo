@@ -1,0 +1,30 @@
+{
+  "name": "react-gql-apollo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd react-app && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisdotjs/react-gql-apollo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisdotjs/react-gql-apollo/issues"
+  },
+  "homepage": "https://github.com/chrisdotjs/react-gql-apollo#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "graphql": "^15.8.0",
+    "mongoose": "^6.1.1"
+  }
+}
